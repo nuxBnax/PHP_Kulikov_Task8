@@ -202,8 +202,8 @@ class UserController extends AbstractController
                 'user-auth.tpl',
                 [
                     'title' => 'Форма логина',
-                    'auth-success' => false,
-                    'auth-error' => 'Неверные логин или пароль'
+                    'auth_success' => false,
+                    'auth_error' => 'Неверные логин или пароль'
                 ]
             );
         } else {

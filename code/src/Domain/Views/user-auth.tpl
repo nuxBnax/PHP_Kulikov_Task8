@@ -1,5 +1,5 @@
-{% if not auth-success %}
-  {{ auth-error }}
+{% if not auth_success %}
+  {{ auth_error }}
 {% endif %}
 
 <form class="form__login" action="/user/login/" method="post">
